@@ -29,6 +29,7 @@ predict_Arg=reqparse.RequestParser()
 predict_Arg.add_argument("symptoms",type=str,help="Send symptoms seperated by '-'")
 
 #test json req {"symptoms":"muscle_weakness-stiff_neck-swelling_joints-movement_stiffness-painful_walking"}
+# Expected : Arthritis  
 class predict(Resource):
     def post(self):
         args=predict_Arg.parse_args()
