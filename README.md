@@ -1,4 +1,4 @@
-# Disease Prediction using Symptoms
+# Disease Prediction using Patient Symptoms
 
 Introduction
 ---
